@@ -182,16 +182,10 @@ public class NeMovilidad {
     /** @return representación textual de la necesidad */
     @Override
     public String toString() {
-        return "NeMovilidad [solicitante=" + solicitante + ", carrera=" + carrera + ", motivo=" + motivo
-                + ", lugarSalida=" + lugarSalida + ", lugarDestino=" + lugarDestino + ", pasajeros=" + pasajeros
-                + ", fechaSalida=" + fechaSalida + ", fechaRegreso=" + fechaRegreso + ", horaSalida=" + horaSalida
-                + ", horaRegreso=" + horaRegreso + ", tipo=" + tipo + ", observaciones=" + observaciones
-                + ", getSolicitante()=" + getSolicitante() + ", getCarrera()=" + getCarrera() + ", getMotivo()="
-                + getMotivo() + ", getLugarSalida()=" + getLugarSalida() + ", getLugarDestino()=" + getLugarDestino()
-                + ", getPasajeros()=" + getPasajeros() + ", getFechaSalida()=" + getFechaSalida()
-                + ", getFechaRegreso()=" + getFechaRegreso() + ", getHoraSalida()=" + getHoraSalida()
-                + ", getHoraRegreso()=" + getHoraRegreso() + ", getTipo()=" + getTipo() + ", getObservaciones()="
-                + getObservaciones() + "]";
+        return "Necesidad de Movilidad:\nSolicitante: " + solicitante + "\nCarrera: " + carrera + "\nMotivo: " + motivo
+                + "\nLugar de Salida: " + lugarSalida + "\nLugar de Destino: " + lugarDestino + "\nPasajeros: " + pasajeros
+                + "\nFecha de Salida: " + fechaSalida + "\nFecha de Regreso: " + fechaRegreso + "\nHora de Salida: " + horaSalida
+                + "\nHora de Regreso: " + horaRegreso + "\nTipo de viaje: " + tipo + "\nObservaciones: " + observaciones+ "\n";
     }
 
     
