@@ -13,6 +13,7 @@ import logica.Reserva;
 import logica.Usuario;
 import logica.Vehiculo;
 
+
 /** Punto de entrada y estado compartido de la aplicación. */
 public class Movilidad {
     private static final Scanner teclado = new Scanner(System.in);
