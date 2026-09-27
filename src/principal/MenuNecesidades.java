@@ -35,6 +35,7 @@ public final class MenuNecesidades {
                     mostrarNecesidades();
                 }
                 case 4 -> System.out.println("Buscar necesidad de movilidad");
+                
                 case 5 -> System.out.println("Suspender necesidad de movilidad");
                 case 6 -> System.out.println("Eliminar necesidad de movilidad");
                 case 0 -> volver = true;

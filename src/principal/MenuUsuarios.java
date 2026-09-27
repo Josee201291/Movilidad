@@ -30,6 +30,9 @@ public final class MenuUsuarios {
     }
 
     private void agregar() {
+        System.out.println("=========================");
+        System.err.println("Ingreso de usuario");
+        System.out.println("=========================");
         System.out.println("Ingrese idUsuario: ");
         int idUsuario = Movilidad.leerInt();
         System.out.println("Ingrese usuario: ");
@@ -49,7 +52,9 @@ public final class MenuUsuarios {
     }
 
     private void buscar() {
-        System.out.println("\nBuscar usuario");
+        System.out.println("====================");
+        System.out.println("Buscar usuario");
+        System.out.println("====================");
         System.out.println("Ingrese usuario: ");
         String nombreUsuario = Movilidad.leerString();
         for (Usuario usuario : Movilidad.usuarios) {
@@ -62,7 +67,9 @@ public final class MenuUsuarios {
     }
 
     private void modificar() {
-        System.out.println("\nModificar usuario");
+        System.out.println("========================");
+        System.out.println("Modificar usuario");
+        System.out.println("========================");
         System.out.println("Ingrese usuario: ");
         String nombreUsuario = Movilidad.leerString();
         for (Usuario usuario : Movilidad.usuarios) {
@@ -84,7 +91,9 @@ public final class MenuUsuarios {
     }
 
     private void eliminar() {
-        System.out.println("\nEliminar usuario");
+        System.out.println("========================");
+        System.out.println("Eliminar usuario");
+        System.out.println("========================");
         System.out.println("Ingrese usuario: ");
         String nombreUsuario = Movilidad.leerString();
         boolean eliminado = Movilidad.usuarios.removeIf(usuario -> usuario.getUsuario().equals(nombreUsuario));
