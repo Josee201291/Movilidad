@@ -94,6 +94,16 @@ public class Vehiculo {
         return "Vehiculo{" + "marca=" + marca + ", modelo=" + modelo + ", patente=" + patente + ", tipo=" + tipo + ", estado=" + estado + ", capacidad=" + capacidad + '}';
     }
 
+    /** @return matrícula o patente */
+    public String getPatente() {
+        return patente;
+    }
+
+    /** @param patente nueva patente */
+    public void setPatente(String patente) {
+        this.patente = patente;
+    }
+
     
 
     
